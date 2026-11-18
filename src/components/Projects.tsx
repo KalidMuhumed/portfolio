@@ -4,6 +4,7 @@ import { Boxes, ExternalLink } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { StadhjalpenDemoWidget } from "@/chat-widget/StadhjalpenDemoWidget";
 import { useDictionary } from "@/i18n/LanguageProvider";
+import { OptimaflowPhoneDemo } from "@/components/OptimaflowPhoneDemo";
 
 function GithubIcon({ size = 16 }: { size?: number }) {
   return (
@@ -203,6 +204,57 @@ export function Projects() {
                 onReplay={replayDemo}
                 onArchitecture={openArchitecture}
               />
+            </div>
+          </div>
+        </article>
+
+        <article className="mt-8 overflow-hidden rounded-[12px] border border-border bg-card sm:mt-10">
+          <div className="grid gap-0 lg:grid-cols-[1fr_minmax(300px,400px)]">
+            <div className="flex min-w-0 flex-col justify-center border-b border-border p-4 sm:p-6 md:p-8 lg:border-b-0 lg:border-r">
+              <p className="text-xs font-medium uppercase tracking-[0.28em] text-accent">
+                {projects.optimaflow.eyebrow}
+              </p>
+              <h3 className="mt-3 text-xl font-medium tracking-tight text-foreground sm:text-2xl md:text-3xl">
+                {projects.optimaflow.title}
+              </h3>
+              <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted sm:text-base">
+                {projects.optimaflow.description}
+              </p>
+              <ul className="mt-4 flex flex-wrap gap-2 sm:mt-5">
+                {projects.optimaflow.tags.map((tag) => (
+                  <li
+                    key={tag}
+                    className="rounded-md border border-border px-2.5 py-1 text-xs tracking-wide text-muted"
+                  >
+                    {tag}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="mt-5 md:mt-6">
+                <a
+                  href="https://www.optimaflow.se"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-11 touch-manipulation select-none items-center justify-center gap-2 rounded-md border border-border bg-transparent px-3.5 py-2.5 text-sm text-foreground transition-colors hover:border-accent hover:text-accent active:scale-[0.98] active:border-accent active:text-accent"
+                >
+                  <ExternalLink size={14} strokeWidth={1.75} className="shrink-0" />
+                  {projects.optimaflow.live}
+                </a>
+                <p className="mt-3 text-[10px] leading-relaxed text-muted/80 sm:text-xs">
+                  {projects.optimaflow.hint}
+                </p>
+              </div>
+            </div>
+
+            <div className="relative flex items-center justify-center overflow-hidden bg-[#141413] px-4 py-10 sm:py-12">
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(217,119,87,0.08),transparent_55%)]"
+              />
+              <div className="relative">
+                <OptimaflowPhoneDemo />
+              </div>
             </div>
           </div>
         </article>
