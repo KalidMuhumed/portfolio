@@ -64,31 +64,21 @@
   },
   "projects": {
     "eyebrow": "Portfolio",
-    "title": "Utvalda projekt",
-    "intro": "Utvalda fullstack- och automationsprojekt med live-demo.",
-    "liveDemo": "Live Demo",
+    "title": "Utvalt projekt",
+    "intro": "Ett utvalt fullstack- och automationsprojekt, live i produktion.",
     "architecture": "Arkitektur",
     "architectureTitle": "Klientisolering",
     "architectureBody": "Varje kund har egen data, åtkomst, bearbetning och säkerhet. En klient blandas inte med en annan.",
     "architectureAlt": "Arkitekturdiagram för klientisolering",
     "github": "GitHub",
-    "mockupAlt": "Mockup för {title}",
-    "featured": {
-      "eyebrow": "Live demo",
-      "title": "Chattassistent, Städhjälpen Väst",
-      "description": "Chattassistent för Städhjälpen Väst som hjälper besökare att ställa frågor, se lediga tider och skicka en bokningsförfrågan. Live-demon visar flödet. Assistenten bokar inte själv.",
-      "tags": ["Next.js", "AI Chat", "TypeScript"],
-      "hint": "Tryck Live Demo för att spela upp konversationen igen eller scrolla upp och ner."
-    },
     "optimaflow": {
       "eyebrow": "Live i produktion",
       "title": "Optimaflow, virtuell assistent för företag",
       "description": "En plattform där varje företag får en virtuell assistent på sin webbplats. Assistenten svarar utifrån företagets egen kunskap, tar emot förfrågningar och skickar dem till företagets kundpanel. Varje företag har egen data, egna inställningar och egen bokningssida.",
       "tags": ["Next.js", "TypeScript", "Supabase", "OpenAI", "Multi-tenant"],
       "live": "Live",
-      "hint": "Demon i telefonen visar flödet med ett påhittat företag: chatt, förfrågan och kundpanel."
-    },
-    "items": []
+      "hint": "Demon i telefonen visar flödet: chatt, förfrågan och kundpanel."
+    }
   },
   "contact": {
     "eyebrow": "Contact",
