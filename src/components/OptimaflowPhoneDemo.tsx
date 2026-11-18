@@ -177,7 +177,7 @@ function useReducedMotion() {
 function StatusBar({ dark = false }: { dark?: boolean }) {
   return (
     <div className={dark ? `${styles.status} ${styles.statusDark}` : styles.status}>
-      <span>9:41</span>
+      <span>00:00</span>
       <span className={styles.statusIcons}>
         <svg width="15" height="10" viewBox="0 0 15 10" fill="currentColor">
           <rect x="0" y="7" width="2.6" height="3" rx="0.6" />
