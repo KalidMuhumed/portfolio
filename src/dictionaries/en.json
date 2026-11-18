@@ -64,8 +64,8 @@
   },
   "projects": {
     "eyebrow": "Portfolio",
-    "title": "Featured project",
-    "intro": "A featured fullstack and automation project with a live demo.",
+    "title": "Featured projects",
+    "intro": "Featured fullstack and automation projects with live demos.",
     "liveDemo": "Live Demo",
     "architecture": "Architecture",
     "architectureTitle": "Client isolation",
@@ -79,6 +79,14 @@
       "description": "A chat assistant for Städhjälpen Väst that helps visitors ask questions, check available times, and send a booking request. The live demo shows the flow. It does not book on its own.",
       "tags": ["Next.js", "AI Chat", "TypeScript"],
       "hint": "Press Live Demo to replay the conversation or scroll up and down."
+    },
+    "optimaflow": {
+      "eyebrow": "Live in production",
+      "title": "Optimaflow, a virtual assistant for businesses",
+      "description": "A platform that gives each business a virtual assistant on its website. The assistant answers from the business's own knowledge, takes requests and sends them to the business's customer panel. Each business has its own data, settings and booking page.",
+      "tags": ["Next.js", "TypeScript", "Supabase", "OpenAI", "Multi-tenant"],
+      "live": "Live",
+      "hint": "The phone demo shows the flow with a made-up business: chat, request and customer panel."
     },
     "items": []
   },
