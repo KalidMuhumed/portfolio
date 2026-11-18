@@ -143,7 +143,7 @@ export function Projects() {
               </div>
             </div>
 
-            <div className="relative flex items-center justify-center overflow-hidden bg-[#141413] px-4 py-10 sm:py-12">
+            <div className="relative flex items-center justify-center overflow-hidden bg-[#141413] px-2 py-6 sm:px-4 sm:py-12">
               <div
                 aria-hidden
                 className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(217,119,87,0.08),transparent_55%)]"
